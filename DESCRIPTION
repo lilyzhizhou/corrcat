@@ -5,8 +5,8 @@ Version: 0.1.0
 Author: Zhi Lin Zhou
 Maintainer: Zhi Lin Zhou <lilyzhi.zhou@mail.utoronto.ca>
 Description: Calculates the correation coefficient between categorical variables using Cramer's V.
-Produces a table of correlation coefficients and a correlation matrix for categorical variables in the dataset.
-This packages does not detect which variables are categorical so user will need subset the data to only categorical variables of interest beforehand. 
+    Produces a table of correlation coefficients and a correlation matrix for categorical variables in the dataset.
+    This packages does not detect which variables are categorical so user will need subset the data to only categorical variables of interest beforehand. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
