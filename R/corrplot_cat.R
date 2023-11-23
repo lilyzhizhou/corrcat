@@ -11,13 +11,13 @@
 #'
 #' @examples
 #'
-#' corrplot_cat(birds)
-#' corrplot_cat(birds[1:4])
+#' birdplot <- corrplot_cat(birds)
+#' birdplot2 <- corrplot_cat(birds[1:4])
 
 
 corrplot_cat <- function(df) {
   mat <- calculate_cramers_v(df)
-  corrplot_cat(df)
+  cramer_corrplot(df)
 
   return(mat)
 }

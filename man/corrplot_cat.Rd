@@ -17,8 +17,8 @@ Calculates CramersV score for categorical variables and produces correlation mat
 }
 \examples{
 
-corrplot_cat(birds)
-corrplot_cat(birds[1:4])
+birdplot <- corrplot_cat(birds)
+birdplot2 <- corrplot_cat(birds[1:4])
 }
 \author{
 Lily Zhou
