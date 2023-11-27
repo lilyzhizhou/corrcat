@@ -15,4 +15,5 @@ URL: https://github.com/lilyzhizhou/corrcat
 BugReports: https://github.com/lilyzhizhou/corrcat/issues
 Imports: 
     corrplot,
+    RColorBrewer,
     rcompanion
