@@ -14,5 +14,5 @@ cramer_corrplot <- function(df) {
   cramer_matrix <- calculate_cramers_v(df)
   cramer_matrix
 
-  corrplot::corrplot(cramer_matrix, method = "color", addCoef.col = "black", is.corr = FALSE, tl.col = "black", col = COL1('Purple', 10))
+  corrplot::corrplot(cramer_matrix, method = "color", addCoef.col = "black", is.corr = FALSE, tl.col = "black", col = corrplot::COL1('Purple', 10))
 }
