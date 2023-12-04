@@ -13,7 +13,9 @@ corrplot_cat(df)
 CramersV score and Correlation matrix
 }
 \description{
-Calculates CramersV score for categorical variables and produces correlation matrix
+Calculates CramersV score for categorical variables and produces correlation matrix.
+Dataset should only include nominal categorical variables as Cramer's V does not work for continuous variables.
+If continuous variables are included, correlation values produced will be falsely high.
 }
 \examples{
 

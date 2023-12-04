@@ -3,7 +3,7 @@
 #' Birds data to be used for calculating cramersV scores
 #'
 #' @docType data
-#' @format dataframe with 30obs and 5 variables
+#' @format dataframe with 30 observations and 5 variables
 #' \describe{
 #'    \item{color}{color of bird}
 #'   \item{country}{origin of bird}
